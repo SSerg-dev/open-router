@@ -1,0 +1,23 @@
+{
+    "rules": [
+      "rules/general.md",
+      "rules/frontend.md"
+    ],
+    "commands": [
+      "commands/create-component.md",
+      "commands/refactor-code.md"
+    ],
+    "model": "gpt-4o",
+    "temperature": 0.2,
+    "context": {
+      "include": [
+        "src/**/*",
+        "README.md"
+      ],
+      "exclude": [
+        "node_modules",
+        "dist",
+        ".git"
+      ]
+    }
+  }
